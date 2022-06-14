@@ -9,9 +9,11 @@ brew install --cask \
     anydesk \
     copyq \
     firefox \
+    flameshot \
     freetube \
     keepassxc \
     microsoft-teams \
+    onlyoffice \
     rancher \
     syncthing \
     telegram \
