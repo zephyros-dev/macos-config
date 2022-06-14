@@ -5,22 +5,28 @@ then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     sudo softwareupdate --install-rosetta
 fi
+# Work software
 brew install --cask \
     anydesk \
+    cloudflare-warp \
     copyq \
     firefox \
     flameshot \
-    freetube \
-    keepassxc \
     microsoft-teams \
     onlyoffice \
     rancher \
-    syncthing \
-    telegram \
     thunderbird \
     visual-studio-code \
     # Use rancher instead for better perfomance
     # docker \
+
+# Personal
+brew install --cask \
+    freetube \
+    keepassxc \
+    syncthing \
+    telegram \
+    transmission-remote-gui \
 
 brew install \
     chezmoi \
