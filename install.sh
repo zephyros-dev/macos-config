@@ -24,6 +24,7 @@ brew install --cask \
 brew install --cask \
     freetube \
     keepassxc \
+    # rectangle \
     syncthing \
     telegram \
     transmission-remote-gui \
