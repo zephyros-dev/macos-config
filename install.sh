@@ -20,6 +20,10 @@ brew install --cask \
     # Use rancher instead for better perfomance
     # docker \
 
+brew install \
+    docker \
+    docker-compose \
+
 # Use amd64 images for best compatibility
 # touch ~/.bash_profile
 # grep -qxF 'export DOCKER_DEFAULT_PLATFORM=linux/amd64' ~/.bash_profile || echo \
@@ -33,14 +37,14 @@ ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugin
 brew install --cask \
     freetube \
     keepassxc \
+    logseq \
     syncthing \
     telegram \
     transmission-remote-gui \
     zerotier-one \
 
+# Personal terminal software
 brew install \
     chezmoi \
-    docker \
-    docker-compose \
     fish \
     tmux \
