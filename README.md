@@ -9,8 +9,10 @@ https://it.nmu.edu/docs/allowing-third-party-applications-install-macbook
 - Change the Container runtime to dockerd for docker to work
 # Personal setup
 1. Setup Syncthing and run at startup in GUI
+   1. Setup Keepassxc sync
+   2. Setup Logseq sync
 2. Setup Keepassxc and run at startup in GUI
-3. Setup Wireguard from Appstore
+3. Setup Wireguard from Appstore  
 - The GUI is not available in brew
 4. Reset launchpad apps ordering
 ```
