@@ -35,6 +35,7 @@ ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugin
 
 # Personal
 brew install --cask \
+    calibre \
     freetube \
     keepassxc \
     logseq \

@@ -21,3 +21,5 @@ defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 # Troubleshooting
 ## External display does not works
 - Some external displays does not work without proper refresh rate. Turn on vnc in preferences and vnc into the display to change it
+## Brew is not in path if use shell fish
+TODO
