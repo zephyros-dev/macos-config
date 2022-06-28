@@ -39,6 +39,7 @@ brew install --cask \
     freetube \
     keepassxc \
     logseq \
+    nomachine \
     rectangle \
     syncthing \
     telegram \
