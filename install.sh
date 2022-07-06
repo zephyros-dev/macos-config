@@ -6,23 +6,25 @@ then
     sudo softwareupdate --install-rosetta
 fi
 # Work software
+    # Choosing between rancher and docker desktop
+    # Docker-desktop has VirtioFS which improves bind mount perfomance significantly
+    # Rancher-desktop is open source but have some rough edges
+
 brew install --cask \
     anydesk \
     cloudflare-warp \
     copyq \
+    docker \
     firefox \
     flameshot \
     microsoft-teams \
     onlyoffice \
-    rancher \
     thunderbird \
     visual-studio-code \
-    # Use rancher instead for better perfomance
-    # docker \
 
-brew install \
-    docker \
-    docker-compose \
+# For installing Rancher-desktop
+# brew install --cask rancher \
+# && brew install docker docker-compose \
 
 # Use amd64 images for best compatibility
 # touch ~/.bash_profile

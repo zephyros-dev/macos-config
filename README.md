@@ -5,8 +5,15 @@
 ```
 2. Allow install 3rd party apps
 https://it.nmu.edu/docs/allowing-third-party-applications-install-macbook
-3. Launch Rancher application once to setup docker
-- Change the Container runtime to dockerd for docker to work
+3. Install docker
+  - Using Docker
+    - Launch Docker desktop application
+    - Use these settings
+      - Use the new Virtualization framework
+      - Enable VirtioFS accelerated directory sharing
+  - Using Rancher
+     - Launch Rancher application once to setup docker
+     - Change the Container runtime to dockerd for docker to work
 # Personal setup
 1. Setup Syncthing and run at startup in GUI
    1. Setup Keepassxc sync
