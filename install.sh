@@ -39,6 +39,7 @@ ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugin
 brew install --cask \
     calibre \
     freetube \
+    jellyfin-media-player \
     keepassxc \
     logseq \
     moonlight \
