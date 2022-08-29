@@ -57,3 +57,4 @@ brew install \
     chezmoi \
     fish \
     tmux \
+    iperf \
