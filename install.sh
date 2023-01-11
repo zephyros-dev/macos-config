@@ -41,6 +41,7 @@ brew install --cask \
     jellyfin-media-player \
     keepassxc \
     logseq \
+    monitorcontrol \
     moonlight \
     nomachine \
     parsec \
