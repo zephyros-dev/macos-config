@@ -44,3 +44,7 @@ brew install \
     fish \
     tmux \
     iperf3 \
+
+# Prevent macOS from writing .DS_Store on network share
+# https://support.apple.com/en-us/HT208209
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
