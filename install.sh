@@ -1,7 +1,6 @@
 #!/bin/bash
 # Install homebrew if not existed
-if [ ! -f "/opt/homebrew/bin/brew" ]
-then
+if [ ! -f "/opt/homebrew/bin/brew" ]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     sudo softwareupdate --install-rosetta
 fi
@@ -15,8 +14,9 @@ brew install --cask \
     flameshot \
     microsoft-teams \
     onlyoffice \
+    sloth \
     thunderbird \
-    visual-studio-code \
+    visual-studio-code
 
 # Docker-compose plugin for docker
 mkdir -p ~/.docker/cli-plugins
@@ -36,14 +36,14 @@ brew install --cask \
     syncthing \
     telegram \
     transmission-remote-gui \
-    zerotier-one \
+    zerotier-one
 
 # Personal terminal software
 brew install \
     chezmoi \
     fish \
     tmux \
-    iperf3 \
+    iperf3
 
 # Prevent macOS from writing .DS_Store on network share
 # https://support.apple.com/en-us/HT208209
