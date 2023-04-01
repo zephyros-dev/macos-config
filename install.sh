@@ -33,6 +33,7 @@ brew install --cask \
     nomachine \
     parsec \
     rectangle \
+    slack \
     syncthing \
     telegram \
     transmission-remote-gui \
