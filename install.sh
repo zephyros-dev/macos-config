@@ -39,12 +39,20 @@ brew install --cask \
     transmission-remote-gui \
     zerotier-one
 
+# Development software
+brew install \
+    awscli
+
+brew install --cask \
+    lens
+
 # Personal terminal software
 brew install \
+    awscli \
     chezmoi \
     fish \
-    tmux \
-    iperf3
+    iperf3 \
+    tmux
 
 # Prevent macOS from writing .DS_Store on network share
 # https://support.apple.com/en-us/HT208209
