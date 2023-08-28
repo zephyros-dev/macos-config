@@ -24,6 +24,7 @@ ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugin
 
 # Personal
 brew install --cask \
+    alt-tab \
     freetube \
     jellyfin-media-player \
     keepassxc \
@@ -36,8 +37,7 @@ brew install --cask \
     slack \
     syncthing \
     telegram \
-    transmission-remote-gui \
-    zerotier-one
+    transmission-remote-gui
 
 # Development software
 brew install \
